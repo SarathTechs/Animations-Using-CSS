@@ -1,0 +1,215 @@
+ *{
+   margin: 0px;
+   border-radius: 12px;
+   
+} 
+
+
+
+ .bg h2{
+    font-size:25px;
+    padding: 10px;
+    color:rgb(226, 13, 84);
+    text-shadow: 2px 3px 3px rgb(214, 224, 228);
+    position: absolute;
+     top: 165px;
+    
+}
+
+
+.bg{
+    background-color: rgb(67, 110, 110,0.8);
+    width: 350px;
+    height: 400px;
+     margin: 50px; 
+    background-repeat: no-repeat;
+    box-shadow: 2px 2px 15px rgb(84, 106, 217);
+    position: relative;
+  overflow: hidden;
+    
+} 
+
+.bg img{
+     width: 50%;
+     margin-left: 30%;
+     cursor: pointer;
+     position: absolute;
+     top: 5px;
+   
+}
+.bg p{
+    color: #5d1010;
+    padding-left: 10px;
+    position: absolute;
+     top: 210px;
+}
+
+.bg button{
+    border: none;
+    background-color: coral;
+    color:cornsilk;
+    width: 20%;
+    height: 25px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    position: absolute;
+     bottom: 10px;
+}
+
+button:hover{
+    background-color: chartreuse;
+    box-shadow: 2px 2px 2px whitesmoke;
+    color: crimson;
+    width: 25%;
+    height: 30px;
+}
+
+img:hover{
+    width: 52%;
+}
+
+.bg .cover{
+    box-sizing: border-box;
+    background-color: burlywood;
+    overflow: hidden; 
+    height: 100%;
+    width: 100%;
+    opacity:0.8;
+    cursor: pointer;
+    color:rgb(229, 16, 16);  
+    position: absolute;
+    left:0;
+    transition: 0.6s;
+}
+
+.bg:hover .cover{
+    left:100%;
+}
+
+.cover h1{
+    font-size: 50px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.box{
+     
+    height: 300px;
+width: 300px;
+margin: 100px;
+position: relative;
+
+}
+.Flip_card{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+     /* background-color: aquamarine;  */
+    transform-style: preserve-3d;
+    transition: all 1s ease;
+}
+
+.front{
+    position: absolute;
+    background-image: url("https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTNAzF9ZGTgkX_Byeb58p06BuFLW3kRo63ykaBQtKNqn72aUeNmYOHua7Atl3TUxF9rnVBxjc8zun2qp5ii_VRIBiuXTz4ooeIFtgAilCDw&usqp=CAE");
+    background-size: cover;
+    background-position: left;
+    color:antiquewhite;
+    width: 100%;
+    height: 100%;
+    
+    
+}
+
+.back{
+    position: absolute;
+    background-image: url("https://img.pikbest.com/ai/illus_our/20230427/4fed43914130be52f9de97de11045b9b.jpg!sw800");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color:antiquewhite;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden; 
+     transform: rotateY(180deg);  
+   
+}
+
+.Flip_card:hover{
+    transform: rotateY(180deg);
+}
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding:15px;
+} 
+
+
+.magic-card{
+    position: relative;
+    width: 250px;
+    height: 300px;
+    transition: 0.5s;
+    box-shadow: 3px 3px 7px rgb(166, 222, 81);
+    margin-left: 200px;
+    margin-bottom: 100px;
+}
+
+.magic-card:hover{
+    transform: rotate(-10deg);
+    /* z-index: 1; */
+    /* transform: perspective(2000px);  */
+}
+
+.magic-card .img-container{
+    position: relative;
+    transform-origin: left;
+    transition: 1s;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.magic-card .img-container .img{
+    position: absolute;
+    top:0;
+    left:0;
+    object-fit: cover;
+    /* box-sizing: border-box; */
+    width: 100%;
+    height: 100%;
+}
+
+.magic-card:hover .img-container{
+    transform: rotateY(-135deg);
+    
+}
+
+.magic-card .matter{
+    position: absolute;
+    top:0;
+    left:0;
+    padding:15px;
+}
+
+.wish{
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    padding-left: 20px;
+}
+
+span{
+    color: rgb(99, 11, 11);
+}
+a{
+    color: #5d1010;
+   font-weight: bold;
+  padding: 25px;
+}
+
+
